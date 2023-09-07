@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+    <header id="header" class="header d-flex align-items-center sticked">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="header-heading">Impact<span style="color: red;">.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar d-flex">
+        <ul class="navbar-list">
+          <li><a href="#hero" >Home</a></li>
+          <li><a href="#about" >About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio" >Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span>
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L6.29289 9.70711C5.90237 9.31658 5.90237 8.68342 6.29289 8.29289C6.68342 7.90237 7.31658 7.90237 7.70711 8.29289L12 12.5858L16.2929 8.29289C16.6834 7.90237 17.3166 7.90237 17.7071 8.29289C18.0976 8.68342 18.0976 9.31658 17.7071 9.70711L12.7071 14.7071Z" fill="#919191"></path> </g></svg>
+
+          </a>
+            <ul class="list">
+              <li><a href="#"><span></span> Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span>
+              </a>
+                  <li><a href="#"> Drop Down 1</a></li>
+                  <li><a href="#"> Drop Down 2</a></li>
+                  <li><a href="#"> Drop Down 3</a></li>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+<!-- Hero -->
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center">
+    <div class="container position-relative">
+      <div class="row gy-5 aos-init aos-animate" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2 class="hero-heading">Welcome to Impact</h2>
+          <p class="hero-p">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center">
+              <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#c4c4c4" d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M10,1.39534884 C5.24778239,1.39534884 1.39534884,5.24778239 1.39534884,10 C1.39534884,14.7522176 5.24778239,18.6046512 10,18.6046512 C14.7522176,18.6046512 18.6046512,14.7522176 18.6046512,10 C18.6046512,5.24778239 14.7522176,1.39534884 10,1.39534884 Z M8.18181818,5.90395401 C8.18181818,5.43578211 8.61824416,5.31836036 8.90010261,5.62289936 L8.90010261,5.62289936 L12.575303,9.58493664 C12.7779293,9.80311383 12.7779293,10.1978024 12.575303,10.4159796 L12.575303,10.4159796 L8.90010261,14.3772594 C8.61824416,14.6817984 8.18181818,14.563619 8.18181818,14.0969623 L8.18181818,14.0969623 Z"></path> </g></svg>
+              <span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="/src/img/hero-img.svg" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+          <div class="col-xl-3 col-md-6 aos-init">
+            <div class="icon-box">
+              <div class="icon">
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>ionicons-v5-i</title><rect x="48" y="80" width="416" height="272" rx="32" ry="32" style="fill:none;stroke:#c5c4c4;stroke-linejoin:round;stroke-width:32px"></rect><line x1="256" y1="416" x2="256" y2="352" style="fill:none;stroke:#c5c4c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line x1="256" y1="80" x2="256" y2="48" style="fill:none;stroke:#c5c4c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line x1="400" y1="464" x2="368" y2="352" style="fill:none;stroke:#c5c4c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line x1="112" y1="464" x2="144" y2="352" style="fill:none;stroke:#c5c4c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line></g></svg>              </div>
+              <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 aos-init">
+            <div class="icon-box">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M21 9L19 5L16 3H8L5 5L3 9L12 21L21 9Z" stroke="#b5b5b5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 5L8 7H16L19 5" stroke="#b5b5b5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 7L7 10L12 21L17 10L16 7" stroke="#b5b5b5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+              </div>
+              <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 aos-init">
+            <div class="icon-box">
+              <div class="icon">
+                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#d2d0d0" class="bi bi-geo-alt"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path> <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path> </g></svg>
+              </div>
+              <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 aos-init">
+            <div class="icon-box">
+              <div class="icon">
+                <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#c9c9c9" stroke-width="2.368"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16 24a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8v32a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8h32a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8V16a8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8z"></path></g></svg>              <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+  <!-- About -->
+  <section id="about">
+    <div class="about-container aos-init aos-animate" data-aos="fade-up">
+       <div class="about-top">
+        <h2>About Us</h2>
+        <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+        </div>
+
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <h3 class="fw-bold fs-8">Voluptatem dignissimos provident quasi corporis</h3>
+          <img src="/src/img/about.jpeg" class="img-fluid rounded-4 mb-4" alt="">
+          <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
+          <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="content ps-lg-5ps-0">
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul class="list">
+              <li class="list-element"><svg style="width: 20px;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.2426 14.4142L17.3137 7.34315L18.7279 8.75736L10.2426 17.2426L6 13L7.41421 11.5858L10.2426 14.4142Z" fill="#008374"></path> </g></svg> 
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><svg style="width: 20px;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.2426 14.4142L17.3137 7.34315L18.7279 8.75736L10.2426 17.2426L6 13L7.41421 11.5858L10.2426 14.4142Z" fill="#008374"></path> </g></svg> 
+                Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><svg style="width: 20px;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.2426 14.4142L17.3137 7.34315L18.7279 8.75736L10.2426 17.2426L6 13L7.41421 11.5858L10.2426 14.4142Z" fill="#008374"></path> </g></svg>
+                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+
+            <div class="mt-4 position-relative">
+              <img src="/src/img/about-2.jpeg" class="rounded-4 mw-100 h-auto" alt="photo">
+              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn "></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clients">
+      <div class="clients-container row d-flex align-items-center justify-content-center mt-md-3 ">
+        <img src="/src/img/client-1.png" class="col-lg-2" alt="client-1">
+        <img src="/src/img/client-2.png" class="col-lg-2" alt="client-2">
+        <img src="/src/img/client-3.png" class="col-lg-2" alt="client-3">
+        <img src="/src/img/client-4.png" class="col-lg-2" alt="client-4">
+        <img src="/src/img/client-5.png" class="col-lg-2" alt="client-5">
+       </div>
+      </div>
+      <div class="stats-counter">
+        <div class="container row gy-4 align-items-center">
+
+          <div class="col-lg-6">
+            <img src="/src/img/stats-img.svg" alt="stats-img" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+            <div class="stats-item d-flex align-items-center">
+              <span class="counter">232</span>
+              <p class="paragraph-text"><strong>Happy Clients</strong> consequuntur quae diredo para mesta</p>
+            </div>
+
+            <div class="stats-item d-flex align-items-baseline">
+              <span class="counter">521</span>
+              <p class="paragraph-text"><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+
+            <div class="stats-item d-flex align-items-center">
+              <span class="counter">453</span>
+              <p class="paragraph-text"><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+
+          </div>
+
+        </div>
+
+     
+       </div>
+       <div class="call-to-action">
+        <div class="container text-center  d-flex justify-content-center align-items-center">
+         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn"></a>
+         <h3 class="heading-cta">Call To Action</h3>
+         <p class="title"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <a class="cta-btn" href="#">Call To Action</a>
+        </div>
+     </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header d-flex justify-content-center align-items-center flex-column">
+        <h2 class="services-heading">Our Services</h2>
+        <p class="services-title">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+      </div>
+
+      <div class="row gy-4 aos-init aos-animate">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item  position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="#121923" stroke-width="1.2"></path> </g></svg>
+            </div>
+            <h3>Nesciunt Mete</h3>
+            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            <a href="#" class="readmore stretched-link">Read more 
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>broadcast</title> <g id="Layer_2" data-name="Layer 2"> <g id="invisible_box" data-name="invisible box"> <rect width="48" height="48" fill="none"></rect> </g> <g id="icons_Q2" data-name="icons Q2"> <circle cx="24" cy="24" r="5"></circle> <path d="M17.4,31.5a2.1,2.1,0,0,1-2.8,3,14.3,14.3,0,0,1,0-21,2.1,2.1,0,0,1,2.8,3,10,10,0,0,0,0,15Z"></path> <path d="M38,24a14.2,14.2,0,0,1-4.6,10.5,2.1,2.1,0,0,1-2.8-3,10,10,0,0,0,0-15,2.1,2.1,0,1,1,2.8-3A14.2,14.2,0,0,1,38,24Z"></path> <path d="M46,24a21.1,21.1,0,0,1-6.6,15.4,2,2,0,0,1-2.8-2.8,17.4,17.4,0,0,0,0-25.2,2,2,0,0,1,2.8-2.8A21.1,21.1,0,0,1,46,24Z"></path> <path d="M11.4,36.6a2,2,0,0,1-2.8,2.8,21.3,21.3,0,0,1,0-30.8,2,2,0,0,1,2.8,2.8,17.4,17.4,0,0,0,0,25.2Z"></path> </g> </g> </g></svg>     
+            </div>
+            <h3>Eosle Commodi</h3>
+            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            <a href="#" class="readmore stretched-link">Read more 
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-easel"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z"></path> </g></svg>            </div>
+            <h3>Ledo Markt</h3>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            <a href="#" class="readmore stretched-link">Read more 
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-bounding-box-circles"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2zm2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2.004 2.004 0 0 1 1.437-1.437V3.937A2.004 2.004 0 0 1 12.063 2.5H3.937A2.004 2.004 0 0 1 2.5 3.937zM14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path> </g></svg>            </div>
+            <h3>Asperiores Commodit</h3>
+            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+            <a href="#" class="readmore stretched-link">Read more
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 10H17M7 14H12M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>            </div>
+            <h3>Velit Doloremque</h3>
+            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+            <a href="#" class="readmore stretched-link">Read more 
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-chat-square-text"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path> <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"></path> </g></svg>            </div>
+            <h3>Dolori Architecto</h3>
+            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            <a href="#" class="readmore stretched-link">Read more 
+              <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#008374"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#008374" stroke-width="0.43200000000000005" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container">
+
+      <div class="section-header">
+        <h2>Portfolio</h2>
+        <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+      </div>
+
+      <div class="portfolio-elements">
+
+        <div>
+          <ul class="portfolio-flters d-flex justify-content-center align-items-center">
+            <li>All</li>
+            <li>App</li>
+            <li>Product</li>
+            <li>Branding</li>
+            <li>Books</li>
+          </ul>
+        </div>
+
+        <div class="row gy-4 portfolio-container">
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/app-1.jpg"><img src="/src/img/app-1.jpeg" class="img-fluid" alt=""></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/product-1.jpg"><img src="/src/img/product-1.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Product 1</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/branding-1.jpg"><img src="/src/img/branding-1.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Branding 1</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/books-1.jpg" ><img src="/src/img/books-1.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Books 1</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/app-2.jpg"><img src="/src/img/app-2.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/product-2.jpg"><img src="/src/img/product-2.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Product 2</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/branding-2.jpg"><img src="/src/img/branding-2.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Branding 2</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/books-2.jpg"><img src="/src/img/books-2.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Books 2</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/app-3.jpg"><img src="/src/img/app-3.jpeg" class="img-fluid" alt=""></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/product-3.jpg"><img src="/src/img/product-3.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Product 3</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/branding-3.jpg"><img src="/src/img/branding-3.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Branding 3</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="assets/img/portfolio/books-3.jpg"><img src="/src/img/books-3.jpeg" class="img-fluid" alt="img"></a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Books 3</a></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
