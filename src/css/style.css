@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
   cursor: pointer;
 }
@@ -404,6 +405,7 @@ ul {
 }
 
 #portfolio {
+  padding: 60px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,4 +502,222 @@ ul {
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
+}
+
+#team .container {
+  padding: 60px 0;
+}
+#team .container .section-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+#team .container .section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+#team .container .section-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #008d7d;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#team .container .section-header p {
+  color: #6f6f6f;
+}
+#team .container .member {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+#team .container .member .img-fluid {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+#team .container .member h4 {
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+#team .container .member span {
+  font-style: italic;
+  font-size: 14px;
+  color: #6c757d;
+}
+#team .container .member .social {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#team .container .member .social a {
+  color: #a2a2a2;
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
+}
+#team .container .member .social a svg {
+  width: 20px;
+  margin: 0 2px;
+}
+
+#pricing {
+  background-color: #f6f6f6;
+}
+#pricing .container .section-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+#pricing .container .section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+#pricing .container .section-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #008374;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#pricing .container .section-header p {
+  color: #6f6f6f;
+}
+#pricing .container .pricing-element {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+  background: #fff;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+#pricing .container .pricing-element h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #555555;
+  text-align: center;
+}
+#pricing .container .pricing-element .icon {
+  margin: 30px auto 30px auto;
+  width: 70px;
+  height: 70px;
+  background-color: #008374;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  transform-style: preserve-3d;
+}
+#pricing .container .pricing-element .icon::before {
+  position: absolute;
+  content: "";
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  background: #87c1bb;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+#pricing .container .pricing-element .icon i {
+  color: #fff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  line-height: 0;
+}
+#pricing .container .pricing-element h4 {
+  font-size: 48px;
+  color: #f85a40;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+}
+#pricing .container .pricing-element h4 span:nth-child(2) {
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+}
+#pricing .container .pricing-element ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #6c757d;
+  text-align: left;
+  line-height: 20px;
+}
+#pricing .container .pricing-element ul .check {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#pricing .container .pricing-element ul .check i {
+  color: #059652;
+  font-size: 22px;
+  padding-right: 3px;
+}
+#pricing .container .pricing-element ul .x-icon {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#pricing .container .pricing-element ul .x-icon i {
+  font-size: 22px;
+  padding-right: 3px;
+  color: 108, 117, 125, 0.5;
+}
+#pricing .container .pricing-element ul .x-icon span {
+  text-decoration: line-through;
+  color: rgba(108, 117, 125, 0.5);
+}
+#pricing .container .pricing-element .text-center {
+  text-align: center;
+}
+#pricing .container .pricing-element .text-center a {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #008374;
+  border: 1px solid rgba(0, 131, 116, 0.2);
+  transition: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+}
+#pricing .container .pricing-element .text-center a:hover {
+  background-color: #008374;
+  color: #fff;
+  transition: 0.5s;
+}
+#pricing .container .featured {
+  transform: scale(1.15);
+  z-index: 2;
+  border: 3px solid #008374;
 }/*# sourceMappingURL=style.css.map */
