@@ -895,6 +895,13 @@ ul {
       border-radius: 10px 0 0 10px;
       box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
       .info-item {
+        cursor: pointer;
+        &:hover {
+          i {
+            background-color: white;
+            color: #008374;
+          }
+        }
         width: 100%;
         background-color: #009282;
         margin-bottom: 20px;
@@ -979,6 +986,10 @@ ul {
       }
       .social-links {
         .icon-link {
+          &:hover {
+            border-color: white;
+            color: white;
+          }
           display: flex;
           align-items: center;
           justify-content: center;
