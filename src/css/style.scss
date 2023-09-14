@@ -49,6 +49,19 @@ ul {
       li {
         padding: 10px 0 10px 28px;
         a {
+          &:hover::before {
+            width: 25px;
+          }
+          &::before {
+            content: "";
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            height: 2px;
+            width: 0;
+            background-color: red;
+            transition: 1s;
+          }
           color: #fff;
           padding: 0 3px;
           font-size: 16px;
@@ -158,7 +171,7 @@ ul {
     border-radius: 8px;
     z-index: 1;
     height: 100%;
-    width: 100%;
+    width: 268px;
     text-align: center;
 
     .icon {
