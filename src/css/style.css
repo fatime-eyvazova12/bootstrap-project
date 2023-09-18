@@ -54,19 +54,6 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-#header #navbar .navbar-list li a:hover::before {
-  width: 25px;
-}
-#header #navbar .navbar-list li a::before {
-  content: "";
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  height: 2px;
-  width: 0;
-  background-color: red;
-  transition: 1s;
-}
 #header #navbar .navbar-list .dropdown:hover > .list {
   display: block;
   width: 200px;
